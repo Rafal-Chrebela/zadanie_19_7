@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
+import "./CommentsListContainer";
+import CommentsListContainer from "./CommentsListContainer";
 
 const App = () => {
-  return <div className="App">Tu będzie lista komentarzy!</div>;
+  return (
+    <div className="App">
+      <CommentsListContainer />
+    </div>
+  );
 };
 
 export default App;
